@@ -1,0 +1,3 @@
+{
+    "text": "This text has been parsed and extracted into a JSON format. The data extracted includes the following information:\n\n* Movie name\n* Release year\n* Type\n* Plot summary\n* Douban score\n* Douban link\n* IMDb score\n* Picture link\n* Country of origin\n* Number of episodes\n\nPlease note that this data only includes information extracted from the text and does not include any additional information."
+}
