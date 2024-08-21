@@ -50,7 +50,7 @@ Here is the file I'm looking at. It might be truncated from above and below and,
 
 # -----------------------------------------------------------------------
 
-CURSOR_TOGGLE_PROMPT = '''
+CURSOR_REWRITE_PROMPT = '''
 System: You are an intelligent programmer. You are helping a colleague rewrite a piece of code.
 
 Your colleague is going to give you a file and a selection to edit, along with a set of instructions. Please rewrite the selected code according to their instructions.
