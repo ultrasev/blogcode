@@ -64,7 +64,7 @@ Respond the code block in English!!!! this is important.
 
 
 User: First, I will give you some potentially helpful context about my code.
-Then, I will show you the selection and give you the instruction. The selection will be in `{file_patha}`.
+Then, I will show you the selection and give you the instruction. The selection will be in `{file_path}`.
 
 
 -------
