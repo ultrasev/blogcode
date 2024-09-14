@@ -25,7 +25,8 @@ class Models(object):
             "codellama": "CodeLlama-70b-Instruct",
             "openchat": "openchat-3.5",
             "gemma": "Gemma-7B",
-            "mistral": "Mistral-7B-Instruct"
+            "mistral": "Mistral-7B-Instruct",
+            "juchat-deepseek": "juchat-deepseek"
         }
 
     def __iter__(self) -> typing.Generator[LLM, None, None]:
@@ -68,7 +69,7 @@ class FilmItemLoader(pydantic.BaseModel):
         if self.model in Models():
             return f"results/{self.model}"
         elif self.model.lower() == Models.GOLDEN:
-            return "data/parsed"
+            return "films/parsed"
         raise ValueError("Model {} not found".format(self.model))
 
     def __iter__(self) -> typing.Generator[FilmItem, None, None]:
